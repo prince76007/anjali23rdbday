@@ -970,6 +970,9 @@ audio {
 
 .bannar {
 	max-width: 100%;
+	height: auto;
+	max-height: 260px;
+	object-fit: contain;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);
 	-o-transform:translate(0px,-500px);
@@ -1056,19 +1059,17 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}o
+}
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
 	}
 	33%{
-		transform:translate(0px,0px);
-		transform:rotate(10deg);
+		transform:translate(0px,0px) rotate(10deg);
 		/*-webkit-transform:scale(1.5);*/
 	}
 	66% {
-		transform:translate(0px,100px);
-		transform:rotate(-10deg);
+		transform:translate(0px,100px) rotate(-10deg);
 	}
 	100% {
 		transform:translate(0px,0px);
