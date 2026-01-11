@@ -1,0 +1,38 @@
+var config = {
+  //
+  texts: [
+    "👋Hello Ji!",
+    "Meri Pyari 😇Anjali",
+    "One of the most cutest😚",
+    "sweetest🥰",
+    "Kind Hearted🫶🏼",
+    "Hardworking💪🏼",
+    "And Daring💀 Girl",
+    "I have ever met",
+    "Thank you!🥰",
+    "meri life me aane ke liye",
+    "I promise",
+    "Ki me apko humesha khush rakhunga😇",
+    "or koi option bi nhi hai😁",
+    "Or Pareshan bhi kr lunga😁",
+    "Ladh bhi lenge😁",
+    "pr apko mna bhi lunga🫠",
+    "😚😚😚😚",
+    "Happy Birthday to you🎂🎉 my babyyyy",
+    "~~From me Prince~~",
+    "💕💕💕",
+  ],
+  imgs: {
+    心爱的小可爱: "./imgs/xiaokeai.png",
+  },
+  desc: {
+    turn_on: "Start",
+    play: "Music",
+    bannar_coming: "Color",
+    balloons_flying: "Seems to be missing something",
+    cake_fadein: "Cake?",
+    light_candle: "Candles?",
+    wish_message: "Happy Birthday",
+    story: "A MESSAGE FOR YOU",
+  },
+};
